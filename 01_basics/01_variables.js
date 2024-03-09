@@ -14,3 +14,4 @@ accountEmail="avc@gmail.com";
 accountPassword="2121";
 accountCity="rajasthan";
 console.log(accountId);
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
