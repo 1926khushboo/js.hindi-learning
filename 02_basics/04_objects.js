@@ -62,8 +62,31 @@ const users = [
  }
   
   //course.courseinstructor ////this is a syntax to use object
-  const {courseinstructor} = course//this is a syntax to use object
-  console.log(courseinstructor);
+  const {courseinstructor: instructor} = course//this is a syntax to use object 
+  // this way we can destructure ,Here courseinstructor is so big, we simply write instructor and our output is same
+  //console.log(courseinstructor);
+  console.log(instructor); //output Khushboo
+
+  //example how destructuring happening in reactjs
+ // const navbar = ({company}) => {    //the value written in double quote is destucturing
+
+ // }
+
+  //navbar(company = "hitesh")
+
+  //*************** API*****************//
+  //API means jab aapna kaam kese aur  sa karwana ho 
+  //now value of api is coming in json previously it was in xml which was very complex
+
+ // {      json syntax
+   // "name": "Khushboo",
+    //"coursename": "js is hindi",
+    //"price": "free"
+
+ // }
+//API is javascript notation 
+
+
 
 
 
