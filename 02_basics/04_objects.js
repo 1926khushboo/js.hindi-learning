@@ -51,7 +51,19 @@ const users = [
  console.log(Object.entries(tinderuser)); // it convert key  and values in array //output[ [ 'id', '123' ], [ 'name', 'khushboo' ], [ 'isloggedin', false ] ]
 
  //for checking the values is existing or not
- console.log(tinderuser.hasOwnProperty('inloggesin')); //if key is not there output will false
+ console.log(tinderuser.hasOwnProperty('inloggesin')); //if key is not there output will 
+ 
+ //destructuring of object************************************************
+
+ const course = {
+    coursename: "js.hindi",
+    price: "999",
+    courseinstructor: "Khushboo"
+ }
+  
+  //course.courseinstructor ////this is a syntax to use object
+  const {courseinstructor} = course//this is a syntax to use object
+  console.log(courseinstructor);
 
 
 
